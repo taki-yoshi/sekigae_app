@@ -3,6 +3,7 @@ import pandas as pd
 import chardet
 import requests
 
+#######コメント
 st.title('席替えアプリ')
 st.write('')
 seats_sum = st.number_input(label='座席数を入力',value=1)
