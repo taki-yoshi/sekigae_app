@@ -1,0 +1,23 @@
+services:
+  python3:
+    container_name: ${PROJECT_NAME}
+    restart: always
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - PROJECT_NAME=${PROJECT_NAME}
+        - PROJECT_DIR=${PROJECT_DIR}
+    working_dir: '/${PROJECT_DIR}'
+    tty: true
+    ports:
+      - 5000:5000
+    volumes:
+      - type: bind
+        source: "./"
+        target: "/${PROJECT_DIR}"
+    env_file:
+      - .env
+# volumes:
+#   sekigae-python-volume:
+#     name: "${PROJECT_VOLUME}"

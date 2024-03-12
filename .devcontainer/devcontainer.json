@@ -1,0 +1,18 @@
+{
+    // コンテナ名(vscode上の)
+    "name": "python3_sekigae_vscode",
+    // コンテナ作成に使うdocker-comopseファイルの相対パス
+    "dockerComposeFile": "../docker-compose.yml",
+    // サービス名
+    "service": "python3",
+    // コンテナ内のプロジェクトのルートフォルダを指定
+    "workspaceFolder": "/sekigae-python-dir",
+    // コンテナ停止時のアクション
+    "shutdownAction": "stopCompose",
+    // コンテナに入れるVScodeの拡張機能
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-python.python","formulahendry.code-runner"]
+        }
+    }
+}
