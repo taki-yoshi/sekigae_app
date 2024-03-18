@@ -1,8 +1,7 @@
 from fastapi import FastAPI
 import random
 
-import schemas
-import DA_matching
+from backend_app import schemas,DA_matching
 
 
 app = FastAPI()
