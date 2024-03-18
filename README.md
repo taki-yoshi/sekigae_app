@@ -43,8 +43,8 @@
 
 | 言語・フレームワーク  | バージョン |
 | --------------------- | ---------- |
-| Python                | 3.11.4     |
-| FastAPI                | 4.2.1      |
+| Python                |      |
+| FastAPI                |     |
 | Streamit              |            |
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
@@ -52,7 +52,7 @@
 ## 開発環境構築
 
 <!-- コンテナの作成方法、パッケージのインストール方法など、開発環境構築に必要な情報を記載 -->
-1. `docker-compose up -d`でコンテナ作成，コンテナ内ログイン
+1. `docker-compose up -d`でコンテナ作成，`docker exec -it コンテナ名 bash`でコンテナ内ログイン
 2. `streamlit run app.py`でStreamitの立ち上げ
 3. `uvicorn main:app --reload`でFastAPIの立ち上げ
 
