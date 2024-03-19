@@ -1,4 +1,3 @@
-import schemas
 
 class Student:
     def __init__(self, name, preference):
