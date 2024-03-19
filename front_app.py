@@ -33,7 +33,7 @@ if uploaded_file is not None:
         # st.write(students_info)
             
 
-        url = 'http://127.0.0.1:8000/seats_changed/'
+        url = 'https://sekigae-app.onrender.com'
         response = requests.post(url, json={'students': students_info,'seats_sum':seats_sum})
 
         if response.status_code == 200:
