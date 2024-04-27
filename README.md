@@ -19,7 +19,7 @@
 
 ## プロジェクト名
 
-席替えアプリ
+<a href="https://sekigaeapp.streamlit.app/">席替えアプリ<strong></strong></a>
 <!-- プロジェクトについて -->
 
 ## プロジェクトについて
