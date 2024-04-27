@@ -36,9 +36,9 @@
 
 | 言語・フレームワーク  | バージョン |
 | --------------------- | ---------- |
-| Python                |      |
-| FastAPI                |     |
-| Streamit              |            |
+| Python               |      |
+| FastAPI(バックエンド)                |     |
+| Streamit(フロントエンド)              |            |
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
